@@ -29,11 +29,11 @@
     <material>Gazebo/Red</material>
   </gazebo>
 
-  <joint name="arm1_joint" type="prismatic">
+  <joint name="arm1_joint" type="continuous">
     <parent link="base_link"/>
     <child link="arm1_link"/>
-    <origin xyz="0 0.1 1.0" rpy="0 1.5708 0"/>
-    <limit lower="-1.5" upper="1.5" effort="0" velocity="0"/>
+    <origin xyz="0 0.1 1.0" rpy="0 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="50" velocity="100"/>
   </joint>
   <transmission name="arm1_trans">
     <type>transmission_interface/SimpleTransmission</type>

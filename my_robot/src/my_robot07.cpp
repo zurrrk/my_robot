@@ -13,7 +13,7 @@ int main(int argc, char **argv)
   ros::Publisher  pub_joint1, pub_joint2;
   // パブリッシャの作成。トピックに対してデータを送信。
 
-  ros::Rate rate(2);
+  ros::Rate rate(0.5);
   // ループの頻度を設定。この場合は10Hz、1秒間に10回数、1ループ100ms。
 
   std_msgs::Float64 target_joint1, target_joint2;
@@ -37,7 +37,7 @@ int main(int argc, char **argv)
     if(target_joint2.data==-0.7){
       target_joint2.data=0.0;
     }
-    else if(target_joint2.data==0.0){
+    else if(target_joint2.data==-0.0){
       target_joint2.data=-0.7;
     }
       

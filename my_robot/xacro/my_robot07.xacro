@@ -111,25 +111,24 @@
 
   <link name="arm2_joint_link">
     <inertial>
-      <mass value="0.1"/>
-      <origin xyz="-0.09 0 0.2" rpy="0 0 0"/>
+      <mass value="1.5"/>
+      <origin xyz="-0.09 0 0.208819" rpy="0 0 0"/>
       <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
     </inertial>
     <visual>
-      <origin xyz="-0.09 0 0.2" rpy="0 0 0"/>
+      <origin xyz="-0.09 0 0.208819" rpy="0 0 0"/>
       <geometry>
         <sphere radius="0.015"/>
       </geometry>
     </visual>
     <collision>
-      <origin xyz="-0.09 0 0.2" rpy="0 0 0"/>
+      <origin xyz="-0.09 0 0.208819" rpy="0 0 0"/>
       <geometry>
         <sphere radius="0.015"/>
       </geometry>
     </collision>
   </link>
   <gazebo reference="arm2_joint_link">
-    <selfCollide>true</selfCollide>
     <material>Gazebo/Orange</material>
   </gazebo>
 
@@ -137,9 +136,9 @@
   <joint name="arm2_joint" type="revolute">
     <parent link="arm2_joint_link"/>
     <child link="arm2_link"/>
-    <limit upper="0.0" lower="-0.7" effort="100" velocity="100"/>
+    <limit upper="0.0" lower="-0.7" effort="5" velocity="100"/>
     <axis xyz="0 1 0"/>
-    <origin xyz="-0.09 0 0.2" rpy="0 0 0"/>
+    <origin xyz="-0.09 0 0.208819" rpy="0 0 0"/>
     <dynamics damping="0.1"/>
   </joint>
   <transmission name="arm2_trans">
@@ -178,7 +177,6 @@
     </collision>
   </link>
   <gazebo reference="arm2_link">
-    <selfCollide>true</selfCollide>
     <material>Gazebo/Blue</material>
   </gazebo>
 
@@ -186,7 +184,7 @@
   <joint name="arm1_joint" type="revolute">
     <parent link="arm2_link"/>
     <child link="arm1_joint_link"/>
-    <limit upper="1.4" lower="0.0" effort="100" velocity="100"/>
+    <limit upper="1.4" lower="0.0" effort="10" velocity="100"/>
     <axis xyz="0 1 0"/>
     <origin xyz="-0.029906 0.03 0.146988" rpy="0 0 0"/>
     <dynamics damping="0.1"/>
@@ -227,7 +225,6 @@
     </collision>
   </link>
   <gazebo reference="arm1_joint_link">
-    <selfCollide>true</selfCollide>
     <material>Gazebo/Orange</material>
   </gazebo>
 
@@ -258,7 +255,6 @@
     </collision>
   </link>
   <gazebo reference="arm1_link">
-    <selfCollide>true</selfCollide>
     <material>Gazebo/Red</material>
   </gazebo>
 
