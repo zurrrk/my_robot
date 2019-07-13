@@ -23,22 +23,22 @@ int main(int argc, char **argv)
   pub_joint2 = nh.advertise<std_msgs::Float64>("/my_robot/arm2_joint_position_controller/command", 10);
  
 
-  target_joint1.data = 1.4;
-  target_joint2.data = -0.7;
+  target_joint1.data = -1.22173;
+  target_joint2.data = 0.6108652;
 
   while (ros::ok()) { // このノードが使える間は無限ループ
-    if(target_joint1.data==1.4){
+    if(target_joint1.data==-1.22173){
       target_joint1.data=0.0;
     }
     else if(target_joint1.data==0.0){
-      target_joint1.data=1.4;
+      target_joint1.data=-1.22173;
     }
 
-    if(target_joint2.data==-0.7){
+    if(target_joint2.data==0.6108652){
       target_joint2.data=0.0;
     }
     else if(target_joint2.data==-0.0){
-      target_joint2.data=-0.7;
+      target_joint2.data=0.6108652;
     }
       
     pub_joint1.publish(target_joint1); // 角度を送信    
