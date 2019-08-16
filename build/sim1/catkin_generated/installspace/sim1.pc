@@ -1,0 +1,8 @@
+prefix=/home/zurk/ros_qiita/install
+
+Name: sim1
+Description: Description of sim1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zurk/ros_qiita/install/lib 
+Requires: 
