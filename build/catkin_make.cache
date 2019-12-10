@@ -1,2 +1,2 @@
-my_robot:sim1
+my_robot
 -DCATKIN_DEVEL_PREFIX=/home/zurk/ros_qiita/devel -DCMAKE_INSTALL_PREFIX=/home/zurk/ros_qiita/install -G Unix Makefiles

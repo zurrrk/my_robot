@@ -51,10 +51,3 @@
 /home/zurk/ros_qiita/build/my_robot/CMakeFiles/install/strip.dir
 /home/zurk/ros_qiita/build/my_robot/CMakeFiles/install/local.dir
 /home/zurk/ros_qiita/build/my_robot/CMakeFiles/install.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/list_install_components.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/install.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/rebuild_cache.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/install/strip.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/install/local.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/test.dir
-/home/zurk/ros_qiita/build/sim1/CMakeFiles/edit_cache.dir

@@ -15,13 +15,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "my_robot/catkin_generated/ordered_paths.cmake"
   "my_robot/catkin_generated/package.cmake"
-  "sim1/catkin_generated/ordered_paths.cmake"
-  "sim1/catkin_generated/package.cmake"
   "/home/zurk/ros_qiita/src/CMakeLists.txt"
   "/home/zurk/ros_qiita/src/my_robot/CMakeLists.txt"
   "/home/zurk/ros_qiita/src/my_robot/package.xml"
-  "/home/zurk/ros_qiita/src/sim1/CMakeLists.txt"
-  "/home/zurk/ros_qiita/src/sim1/package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"
@@ -158,7 +154,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_robot/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "sim1/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

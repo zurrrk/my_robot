@@ -57,38 +57,38 @@ include my_robot/CMakeFiles/my_robot.dir/progress.make
 # Include the compile flags for this target's objects.
 include my_robot/CMakeFiles/my_robot.dir/flags.make
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o: my_robot/CMakeFiles/my_robot.dir/flags.make
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o: /home/zurk/ros_qiita/src/my_robot/src/my_robot_kai01.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zurk/ros_qiita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o"
-	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o -c /home/zurk/ros_qiita/src/my_robot/src/my_robot_kai01.cpp
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: my_robot/CMakeFiles/my_robot.dir/flags.make
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /home/zurk/ros_qiita/src/my_robot/src/my_robot_3d02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zurk/ros_qiita/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o"
+	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o -c /home/zurk/ros_qiita/src/my_robot/src/my_robot_3d02.cpp
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.i"
-	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zurk/ros_qiita/src/my_robot/src/my_robot_kai01.cpp > CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.i
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.i"
+	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zurk/ros_qiita/src/my_robot/src/my_robot_3d02.cpp > CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.i
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.s"
-	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zurk/ros_qiita/src/my_robot/src/my_robot_kai01.cpp -o CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.s
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.s"
+	cd /home/zurk/ros_qiita/build/my_robot && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zurk/ros_qiita/src/my_robot/src/my_robot_3d02.cpp -o CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.s
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.requires:
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.requires:
 
-.PHONY : my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.requires
+.PHONY : my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.requires
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.provides: my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.requires
-	$(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.provides.build
-.PHONY : my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.provides
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.provides: my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.requires
+	$(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.provides.build
+.PHONY : my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.provides
 
-my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.provides.build: my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.provides.build: my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o
 
 
 # Object files for target my_robot
 my_robot_OBJECTS = \
-"CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o"
+"CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o"
 
 # External object files for target my_robot
 my_robot_EXTERNAL_OBJECTS =
 
-/home/zurk/ros_qiita/devel/lib/my_robot/my_robot: my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o
+/home/zurk/ros_qiita/devel/lib/my_robot/my_robot: my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o
 /home/zurk/ros_qiita/devel/lib/my_robot/my_robot: my_robot/CMakeFiles/my_robot.dir/build.make
 /home/zurk/ros_qiita/devel/lib/my_robot/my_robot: /opt/ros/kinetic/lib/libroscpp.so
 /home/zurk/ros_qiita/devel/lib/my_robot/my_robot: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -118,7 +118,7 @@ my_robot/CMakeFiles/my_robot.dir/build: /home/zurk/ros_qiita/devel/lib/my_robot/
 
 .PHONY : my_robot/CMakeFiles/my_robot.dir/build
 
-my_robot/CMakeFiles/my_robot.dir/requires: my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o.requires
+my_robot/CMakeFiles/my_robot.dir/requires: my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o.requires
 
 .PHONY : my_robot/CMakeFiles/my_robot.dir/requires
 

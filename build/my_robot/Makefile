@@ -405,32 +405,32 @@ std_msgs_generate_messages_lisp/fast:
 	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make my_robot/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
-src/my_robot_kai01.o: src/my_robot_kai01.cpp.o
+src/my_robot_3d02.o: src/my_robot_3d02.cpp.o
 
-.PHONY : src/my_robot_kai01.o
+.PHONY : src/my_robot_3d02.o
 
 # target to build an object file
-src/my_robot_kai01.cpp.o:
-	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.o
-.PHONY : src/my_robot_kai01.cpp.o
+src/my_robot_3d02.cpp.o:
+	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o
+.PHONY : src/my_robot_3d02.cpp.o
 
-src/my_robot_kai01.i: src/my_robot_kai01.cpp.i
+src/my_robot_3d02.i: src/my_robot_3d02.cpp.i
 
-.PHONY : src/my_robot_kai01.i
+.PHONY : src/my_robot_3d02.i
 
 # target to preprocess a source file
-src/my_robot_kai01.cpp.i:
-	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.i
-.PHONY : src/my_robot_kai01.cpp.i
+src/my_robot_3d02.cpp.i:
+	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.i
+.PHONY : src/my_robot_3d02.cpp.i
 
-src/my_robot_kai01.s: src/my_robot_kai01.cpp.s
+src/my_robot_3d02.s: src/my_robot_3d02.cpp.s
 
-.PHONY : src/my_robot_kai01.s
+.PHONY : src/my_robot_3d02.s
 
 # target to generate assembly for a file
-src/my_robot_kai01.cpp.s:
-	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_kai01.cpp.s
-.PHONY : src/my_robot_kai01.cpp.s
+src/my_robot_3d02.cpp.s:
+	cd /home/zurk/ros_qiita/build && $(MAKE) -f my_robot/CMakeFiles/my_robot.dir/build.make my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.s
+.PHONY : src/my_robot_3d02.cpp.s
 
 # Help Target
 help:
@@ -461,9 +461,9 @@ help:
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... install"
-	@echo "... src/my_robot_kai01.o"
-	@echo "... src/my_robot_kai01.i"
-	@echo "... src/my_robot_kai01.s"
+	@echo "... src/my_robot_3d02.o"
+	@echo "... src/my_robot_3d02.i"
+	@echo "... src/my_robot_3d02.s"
 .PHONY : help
 
 
