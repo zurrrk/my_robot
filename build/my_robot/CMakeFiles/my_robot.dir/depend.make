@@ -270,7 +270,9 @@ my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/inclu
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/ros/wall_timer.h
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/sensor_msgs/JointState.h
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/std_msgs/Float64.h
+my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 my_robot/CMakeFiles/my_robot.dir/src/my_robot_3d02.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 
